@@ -1,0 +1,25 @@
+uuid: cf87dafa-ae51-43b7-82c9-54ee7b06c30c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e3d67075-3879-46d6-b302-bd1cd7ff301f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: testconfiguration
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:e3d67075-3879-46d6-b302-bd1cd7ff301f'
+settings:
+  id: 'block_content:e3d67075-3879-46d6-b302-bd1cd7ff301f'
+  label: 'Test configuration '
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
